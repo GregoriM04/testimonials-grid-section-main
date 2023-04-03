@@ -37,7 +37,7 @@ h4 {
 
 .verification {
     font-weight: 500;
-    opacity: .5;
+    opacity: 0.5;
     font-size: 11px;
 }
 
@@ -82,7 +82,7 @@ header {
 }
 
 .cards {
-    padding: 30px 32px 35px 32px;
+    padding: 28px 32px;
     border-radius: 7px;
     box-shadow: 8px 8px 14px -9px rgba(0,0,0,0.1);
 }
@@ -172,6 +172,25 @@ header {
     margin-top: 20px;
 }
 
+/* Footer styles */
+.attribution { 
+    font-size: 12px;
+    text-align: center; 
+    width: auto;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--very-dark-blackish-blue);
+}
+
+.attribution a, 
+.attribution a:link, 
+.attribution a:visited { 
+    color: var(--moderate-violet);
+    margin-left: 3px;
+}
+
 
 /* Media Queries */ 
 @media (min-width: 660px) {
@@ -183,7 +202,7 @@ header {
             "card-2 card-3"
             "card-4 card-4"
             "card-5 card-5"; 
-        gap: 30px;
+        gap: 25px;
     }
 
     .quotation {
@@ -203,12 +222,11 @@ header {
 }
 
 @media (min-width: 1050px) {
-
     .card-container {
         display: grid; 
         grid-template-columns: repeat(4, 1fr); 
         grid-template-rows: repeat(2, 1fr); 
-        gap: 30px; 
+        gap: 25px; 
         grid-template-areas: 
           "card-1 card-1 card-2 card-5"
           "card-3 card-4 card-4 card-5"; 
@@ -220,7 +238,12 @@ header {
     .main-title {
         margin-top: 20px;
     }
+}
 
+@media (min-width: 1200px) {
+    .container {
+        padding-top: 30px;
+    }
 }
 
 @media (min-width: 1445px) {
@@ -230,26 +253,4 @@ header {
     .container {
         padding-top: 60px;
     }
-   
-}
-
-
-
-/* We need to check this one */
-.attribution { 
-    font-size: 12px;
-    text-align: center; 
-    width: auto;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: var(--very-dark-blackish-blue);
-}
-
-.attribution a, 
-.attribution a:link, 
-.attribution a:visited { 
-    color: var(--moderate-violet);
-    margin-left: 3px;
 }
