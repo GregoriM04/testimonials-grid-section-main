@@ -33,7 +33,7 @@ Here you can see how looks the final result.
 ### Links
 
 - Click this URL to check the: [Repository](https://github.com/GregoriM04/testimonials-grid-section-main)
-- Click this URL to see the: [Live site](https://)
+- Click this URL to see the: [Live site](https://github.com/GregoriM04/testimonials-grid-section-main)
 
 ## My process
 
